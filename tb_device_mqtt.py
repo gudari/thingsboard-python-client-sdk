@@ -15,16 +15,16 @@
 print("tb_client_mqtt start")
 
 import paho.mqtt.client as paho
-print("tb_client_mqtt start2")
 from math import ceil
-print("tb_client_mqtt start3")
 import logging
 import time
 import queue
 from json import loads, dumps
+print("tb_client_mqtt start2")
 import ssl
 from threading import RLock
 from threading import Thread
+print("tb_client_mqtt start3")
 
 from simplejson import JSONDecodeError
 
