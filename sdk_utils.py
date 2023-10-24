@@ -20,12 +20,12 @@ from subprocess import CalledProcessError
 
 from utils import install_package
 
-try:
-    print("sdk_utils")
-    install_package('pymmh3')
-    print("sdk_utils 2")
-except CalledProcessError:
-    install_package('pymmh3')
+#try:
+#    print("sdk_utils")
+#    install_package('pymmh3')
+#    print("sdk_utils 2")
+#except CalledProcessError:
+#    install_package('pymmh3')
 try:
     from pymmh3 import hash, hash128
 except ImportError:
