@@ -20,6 +20,7 @@ from subprocess import CalledProcessError
 
 from utils import install_package
 
+print("sdk_utils")
 try:
     install_package('mmh3')
 except CalledProcessError:

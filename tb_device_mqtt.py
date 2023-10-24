@@ -12,22 +12,18 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-print("tb_client_mqtt start")
-
 import paho.mqtt.client as paho
 from math import ceil
 import logging
 import time
 import queue
 from json import loads, dumps
-print("tb_client_mqtt start2")
 import ssl
 from threading import RLock
 from threading import Thread
-print("tb_client_mqtt start3")
 
 from simplejson import JSONDecodeError
-
+print("tb_client_mqtt start3")
 from sdk_utils import verify_checksum
 
 print("tb_client_mqtt")
