@@ -24,7 +24,6 @@ from threading import Thread
 
 from simplejson import JSONDecodeError
 from sdk_utils import verify_checksum
-print("tb_client_mqtt")
 
 
 FW_TITLE_ATTR = "fw_title"
