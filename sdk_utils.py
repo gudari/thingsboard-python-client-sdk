@@ -20,17 +20,16 @@ from subprocess import CalledProcessError
 
 from utils import install_package
 
-print("sdk_utils")
 try:
+    print("sdk_utils")
     install_package('mmh3')
+    print("sdk_utils 2")
 except CalledProcessError:
     install_package('pymmh3')
-print("sdk_utils 2")
 try:
     from mmh3 import hash, hash128
 except ImportError:
     from pymmh3 import hash, hash128
-print("sdk_utils 3")
 
 log = logging.getLogger(__name__)
 
