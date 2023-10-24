@@ -23,9 +23,7 @@ from threading import RLock
 from threading import Thread
 
 from simplejson import JSONDecodeError
-print("tb_client_mqtt start3")
 from sdk_utils import verify_checksum
-
 print("tb_client_mqtt")
 
 
