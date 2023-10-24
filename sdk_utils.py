@@ -25,11 +25,12 @@ try:
     install_package('mmh3')
 except CalledProcessError:
     install_package('pymmh3')
-
+print("sdk_utils 2")
 try:
     from mmh3 import hash, hash128
 except ImportError:
     from pymmh3 import hash, hash128
+print("sdk_utils 3")
 
 log = logging.getLogger(__name__)
 
