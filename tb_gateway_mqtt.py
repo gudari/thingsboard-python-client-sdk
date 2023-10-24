@@ -12,6 +12,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+print("tb_gateway_mqtt start")
 
 import logging
 import time
