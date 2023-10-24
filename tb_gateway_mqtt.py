@@ -12,7 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-print("tb_gateway_mqtt start")
 
 import logging
 import time
@@ -28,8 +27,6 @@ GATEWAY_RPC_RESPONSE_TOPIC = "v1/gateway/rpc/response"
 GATEWAY_CLAIMING_TOPIC = "v1/gateway/claim"
 
 log = logging.getLogger("tb_connection")
-
-print("tb_gateway_mqtt")
 
 
 class TBGatewayAPI:
