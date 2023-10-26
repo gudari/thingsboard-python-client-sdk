@@ -23,6 +23,7 @@ from threading import RLock
 from threading import Thread
 
 from simplejson import JSONDecodeError
+
 from sdk_utils import verify_checksum
 
 
